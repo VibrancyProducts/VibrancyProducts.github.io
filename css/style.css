@@ -1,7 +1,8 @@
 body {
   background-image: url('../images/iStock-527528428 Cropped.jpg');
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-position: center;
+  background-attachment:fixed;
   color: white;
 }
 .container {
