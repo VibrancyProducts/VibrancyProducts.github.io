@@ -17,21 +17,6 @@ body {
 .row {
   margin-bottom: 0px;
 }
-@media screen and (max-width: 600px) {
-  .container {
-    width: 85%;
-    top: 24px;
-  }
-  body {
-    background-position: left top;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 992px) {
-  .container {
-    width: 49%;
-    top: 27px;
-  }
-}​
 i {
   position: relative;
   top: 5px;
@@ -57,3 +42,18 @@ h3 {
 h5 {
   margin-top: 7px;
 }
+@media screen and (max-width: 600px) {
+  .container {
+    width: 85%;
+    top: 24px;
+  }
+  body {
+    background-position: left top;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .container {
+    width: 49%;
+    top: 27px;
+  }
+}​
